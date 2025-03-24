@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.org/articulos/</loc>
+    <loc>http://localhost:1313/FeriaDeGarage/articulos/</loc>
     <lastmod>2025-03-24T08:57:57-03:00</lastmod>
   </url><url>
-    <loc>https://example.org/articulos/bicicleta-montana/</loc>
+    <loc>http://localhost:1313/FeriaDeGarage/articulos/bicicleta-montana/</loc>
     <lastmod>2025-03-24T08:57:57-03:00</lastmod>
   </url><url>
-    <loc>https://example.org/</loc>
+    <loc>http://localhost:1313/FeriaDeGarage/</loc>
     <lastmod>2025-03-24T08:57:57-03:00</lastmod>
   </url><url>
-    <loc>https://example.org/articulos/telefono-samsung/</loc>
+    <loc>http://localhost:1313/FeriaDeGarage/articulos/telefono-samsung/</loc>
     <lastmod>2025-03-24T08:57:17-03:00</lastmod>
   </url><url>
-    <loc>https://example.org/categories/</loc>
+    <loc>http://localhost:1313/FeriaDeGarage/categories/</loc>
   </url><url>
-    <loc>https://example.org/tags/</loc>
+    <loc>http://localhost:1313/FeriaDeGarage/tags/</loc>
   </url>
 </urlset>
