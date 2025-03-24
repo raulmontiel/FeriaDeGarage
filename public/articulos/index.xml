@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Articulos on Feria de Garage</title>
-    <link>http://localhost:1313/FeriaDeGarage/articulos/</link>
+    <link>http://localhost:1313/FeriaDeGarage/public/articulos/</link>
     <description>Recent content in Articulos on Feria de Garage</description>
     <generator>Hugo</generator>
     <language>es-Ar</language>
     <lastBuildDate>Mon, 24 Mar 2025 08:57:57 -0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/FeriaDeGarage/articulos/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/FeriaDeGarage/public/articulos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bicicleta Montana</title>
-      <link>http://localhost:1313/FeriaDeGarage/articulos/bicicleta-montana/</link>
+      <link>http://localhost:1313/FeriaDeGarage/public/articulos/bicicleta-montana/</link>
       <pubDate>Mon, 24 Mar 2025 08:57:57 -0300</pubDate>
-      <guid>http://localhost:1313/FeriaDeGarage/articulos/bicicleta-montana/</guid>
+      <guid>http://localhost:1313/FeriaDeGarage/public/articulos/bicicleta-montana/</guid>
       <description>&lt;p&gt;Descripción del artículo aquí.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Telefono Samsung</title>
-      <link>http://localhost:1313/FeriaDeGarage/articulos/telefono-samsung/</link>
+      <link>http://localhost:1313/FeriaDeGarage/public/articulos/telefono-samsung/</link>
       <pubDate>Mon, 24 Mar 2025 08:57:17 -0300</pubDate>
-      <guid>http://localhost:1313/FeriaDeGarage/articulos/telefono-samsung/</guid>
+      <guid>http://localhost:1313/FeriaDeGarage/public/articulos/telefono-samsung/</guid>
       <description>&lt;p&gt;Descripción del artículo aquí.&lt;/p&gt;</description>
     </item>
   </channel>
