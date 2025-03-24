@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <h1>Catálogo de Artículos</h1>
+  <div class="catalogo">
+    {{ range .Pages }}
+      {{ if .Params.disponible }}
+        <div class="articulo">
+          <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+          {{ if .Params.imagen }}
+            <img src="{{ .Params.imagen }}" alt="{{ .Title }}">
+          {{ end }}
+          <p class="precio">Precio: {{ .Params.precio }}</p>
+          <p class="estado">Estado: {{ .Params.estado }}</p>
+          <a href="{{ .Permalink }}">Ver detalles</a>
+        </div>
+      {{ end }}
+    {{ end }}
+  </div>
+{{ end }}

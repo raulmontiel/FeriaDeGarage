@@ -1,0 +1,20 @@
+{{ define "main" }}
+  <div class="articulo-detalle">
+    <h1>{{ .Title }}</h1>
+    {{ if .Params.imagen }}
+      <img src="{{ .Params.imagen }}" alt="{{ .Title }}">
+    {{ end }}
+    <p class="precio">Precio: {{ .Params.precio }}</p>
+    <p class="estado">Estado: {{ .Params.estado }}</p>
+    <div class="descripcion">
+      {{ .Content }}
+    </div>
+    <p class="disponibilidad">
+      {{ if .Params.disponible }}
+        <span class="disponible">Disponible</span>
+      {{ else }}
+        <span class="vendido">Vendido</span>
+      {{ end }}
+    </p>
+  </div>
+{{ end }}
