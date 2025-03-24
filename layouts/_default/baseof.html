@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="es-Ar">
+<html lang="{{ .Site.LanguageCode | default "es" }}">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tags | Feria de Garage</title>
+  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ .Site.Title }}{{ end }}</title>
   <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
@@ -15,17 +15,10 @@
     </nav>
   </header>
   
-  
-  <main>
-    <h1>Tags</h1>
-    <ul class="terms-list">
-      
-    </ul>
-  </main>
-
+  {{ block "main" . }}{{ end }}
   
   <footer>
-    <p>© 2025 Catálogo de Artículos Usados</p>
+    <p>© {{ now.Format "2006" }} Catálogo de Artículos Usados</p>
   </footer>
 </body>
 </html>

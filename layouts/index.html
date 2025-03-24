@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <main>
+    <h1>{{ .Title }}</h1>
+    <div class="home-content">
+      {{ .Content }}
+    </div>
+    
+    <h2>Catálogo de Artículos</h2>
+    <div class="catalogo-preview">
+      {{ range first 6 (where .Site.RegularPages "Section" "articulos") }}
+        <div class="articulo-preview">
+          <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+          {{ if .Params.imagen }}
+            <img src="{{ .Params.imagen }}" alt="{{ .Title }}">
+          {{ end }}
+          <p class="precio">Precio: {{ .Params.precio }}</p>
+          <a href="{{ .Permalink }}">Ver detalles</a>
+        </div>
+      {{ end }}
+    </div>
+    
+    <a href="/articulos/" class="ver-todo">Ver todo el catálogo</a>
+  </main>
+{{ end }}
